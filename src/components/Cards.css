@@ -1,0 +1,16 @@
+
+.frame {
+  position: absolute;
+  width: 1419px;
+  height: 494px;
+  left: 630px;
+  top: 804px;
+}
+
+.cards {
+  position: absolute;
+  width: 1848px;
+  height: 494px;
+  left: 0px;
+  top: 0px;
+}
