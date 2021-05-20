@@ -1,0 +1,94 @@
+/* Navbar */
+.navbar {
+  position: absolute;
+  width: 2251px;
+  height: 167px;
+  left: 0px;
+  top: 0px;
+}
+
+.logo-pos {
+  position: absolute;
+  width: 170.37px;
+  height: 119px;
+  left: 90px;
+  top: 24px;
+}
+
+.icon-size {
+  position: absolute;
+  width: 37.52px;
+  height: 37.52px;
+}
+
+.insta-pos {
+  left: 769.09px;
+  top: 65.56px;
+  color: #676565;
+  transition-duration: 0.5s;
+}
+.insta-pos:hover{
+  color:#FF00B8;
+  transition-duration: 0.5s;
+}
+
+.linked-pos {
+  left: 679.99px;
+  top: 64px;
+  color: #676565;
+  transition-duration: 0.5s;
+}
+.linked-pos:hover{
+  color:#FF00B8;
+  transition-duration: 0.5s;
+}
+
+.twitter-pos {
+  left: 473.65px;
+  top: 64px;
+  color: #676565;
+  transition-duration: 0.5s;
+}
+.twitter-pos:hover{
+  color:#FF00B8;
+  transition-duration: 0.5s;
+}
+
+.fb-pos {
+  left: 576.82px;
+  top: 64px;
+  color: #676565;
+  transition-duration: 0.5s;
+}
+.fb-pos:hover{
+  color:#FF00B8;
+  transition-duration: 0.5s;
+}
+
+.navs {
+  position: absolute;
+  width: 517.28px;
+  height: 28.45px;
+  left: 1411px;
+  top: 64px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.navs-margin {
+  margin-left: 48px;
+}
+
+a {
+  color: #676565;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+a:hover{
+  color:#FF00B8;
+  transition-duration: 0.5s;
+}
