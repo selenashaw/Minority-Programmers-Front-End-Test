@@ -4,11 +4,11 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  padding: 38px 32px;
+  padding: 25.33px 21.33px;
 
   position: absolute;
-  width: 438px;
-  height: 494px;
+  width: 292px;
+  height: 329.33px;
   left: 0px;
   top: 0px;
 
@@ -19,10 +19,10 @@
 
 .card-container {
   position: static;
-  width: 374px;
-  height: 418px;
-  left: 32px;
-  top: 38px;
+  width: 249.33px;
+  height: 278.6px;
+  /* left: 32px;
+  top: 38px; */
 
   /* Inside Auto Layout */
   flex: none;
@@ -33,16 +33,16 @@
 
 .card-text {
   position: absolute;
-  width: 374px;
-  height: 72px;
+  width: 249.33px;
+  height: 48px;
   /* left: 32px; */
-  top: 170px;
+  top: 100px;
   
   font-family: Red Hat Display;
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 14px;
+  /* line-height: 24px; */
   
   color: #000000;
 }
@@ -54,13 +54,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 12px 7px;
+  padding: 8px 4.66px;
 
   position: absolute;
-  width: 64px;
-  height: 64px;
+  width: 42.66px;
+  height: 42.66px;
   /* left: 32px; */
-  top: 50px;
+  top: 33.333px;
 
   background: rgba(227, 227, 227, 0.6);
   border-radius: 10px;
@@ -68,32 +68,30 @@
 
 .card-img {
   position: static;
-  width: 50px;
-  height: 40px;
-  left: 7px;
-  top: 12px;
+  width: 33.33px;
+  height: 26.66px;
 
   /* Inside Auto Layout */
 
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 10px 0px;
+  margin: 13.33px 0px;
 }
 
 .card-title {
   position: absolute;
-  width: 198px;
-  height: 48px;
-  left: 160px;
-  /* top: 46px; */
-  /* margin-top:20px; */
+  width: 132px;
+  height: 32px;
+  left: 106.66px;
+  top: 44px;
+  margin:0;
 
   font-family: Red Hat Display;
   font-style: normal;
   font-weight: 500;
-  font-size: 36px;
-  line-height: 48px;
+  font-size: 30px;
+  /* line-height: 48px; */
   /* identical to box height */
 
 
@@ -102,24 +100,24 @@
 
 .card-funds {
   position: absolute;
-  width: 374px;
-  height: 110px;
+  width: 249.333px;
+  height: 73.33px;
   /* left: 32px; */
-  top: 300px;
+  top: 200px;
 }
 
 .card-funds-amnt{
   position: absolute;
-  width: 265px;
-  height: 34px;
+  width: 176.66px;
+  height: 22.66px;
   /* left: 32px; */
   /* top: 278px; */
-  margin-top:35px;
+  margin-top:30px;
 
   font-family: Red Hat Display;
   font-style: normal;
   font-weight: bold;
-  font-size: 26px;
+  font-size: 18px;
   line-height: 34px;
   
 
@@ -128,16 +126,16 @@
 
 .card-funds-header {
   position: absolute;
-  width: 374px;
-  height: 32px;
+  width: 249.33px;
+  height: 21.33px;
   /* left: 32px; */
   /* top: 238px; */
 }
 
 .card-funds-raised {
   position: absolute;
-  width: 113px;
-  height: 32px;
+  /* width: 75.33px; */
+  height: 21.33px;
   /* left: 32px; */
   /* top: 238px; */
   margin:0;
@@ -145,7 +143,7 @@
   font-family: Red Hat Display;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 32px;
   /* identical to box height */
 
@@ -155,8 +153,8 @@
 
 .card-funds-percent {
   /* position: absolute; */
-  width: 105px;
-  height: 21px;
+  /* width: 70px; */
+  height: 14px;
   /* left: 301px; */
   /* top: 242px; */
   float: right;
@@ -165,7 +163,7 @@
   font-family: Red Hat Display;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 21px;
   
   color: #000000;
@@ -173,17 +171,17 @@
 
 .card-funds-bar {
   position: absolute;
-  width: 374px;
-  height: 20px;
+  width: 249.33px;
+  height: 13.33px;
   /* left: 32px; */
   /* top: 328px; */
-  margin-top:80px;
+  margin-top:60px;
 }
 
 .card-funds-progress {
   position: absolute;
   /* width: 196px; */
-  height: 20px;
+  height: 13.33px;
   /* left: 32px; */
   /* top: 328px; */
 
@@ -195,8 +193,8 @@
 
 .card-funds-left {
   position: absolute;
-  width: 374px;
-  height: 20px;
+  width: 249.33px;
+  height: 13.33px;
   /* left: 32px; */
   /* top: 328px; */
 
@@ -212,13 +210,13 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 16px 32px;
+  /* padding: 16px 32px; */
 
   position: absolute;
-  width: 171px;
-  height: 76px;
+  width: 114px;
+  height: 50.66px;
   /* left: calc(50% - 171px/2 - 101.5px); */
-  top: 450px;
+  top: 300px;
 
   /* Brand color - blue */
 
@@ -228,15 +226,13 @@
 
 .card-fund-text {
   position: static;
-  width: 113px;
-  height: 24px;
-  left: 29px;
-  top: 26px;
+  left: 19.33px;
+  top: 17.33px;
 
   font-family: Red Hat Display;
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
   /* identical to box height */
 
@@ -250,7 +246,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 8px;
+  margin: 0px 10.66px;
 }
 
 .btn-placement {
@@ -266,10 +262,10 @@
   padding: 16px 32px;
   
   position: absolute;
-  width: 171px;
-  height: 76px;
+  width: 114px;
+  height: 50.66px;
   /* left: calc(50% - 171px/2 + 101.5px); */
-  top: 450px;
+  top: 300px;
 
   /* Brand color - blue */
   
@@ -279,10 +275,8 @@
 
 .card-learn-text {
   position: static;
-  width: 98px;
-  height: 24px;
-  left: 36.5px;
-  top: 26px;
+  left: 24.33px;
+  top: 17.33px;
 
   font-family: Red Hat Display;
   font-style: normal;
@@ -303,5 +297,5 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 8px;
+  margin: 0px 10.66px;
 }

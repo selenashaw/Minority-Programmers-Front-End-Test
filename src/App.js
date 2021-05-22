@@ -1,20 +1,21 @@
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Cards from './components/Cards';
+import Learn from './components/Learn';
+import Incubator from './components/Incubator';
 import './App.css';
-
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <div className='gradient'>
-        <div className='startup-container'>
-          <p className='startup-head'>Featured Startups</p>
-          <p className='startup-txt'>Invest in the next billion dollar company today</p>
+    <Router>
+      <Switch>
+        <div className="App">
+          <Navbar />
+          <Route path='/learn' component={Learn} />
+          {/* <Route path='/' exact component={Home}/> */}
+          <Route path='/incubator' component={Incubator} />
         </div>
-        <Cards />
-      </div>
-    </div>
+      </Switch>
+    </Router>
   );
 }
 

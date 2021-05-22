@@ -1,33 +1,33 @@
 /* Navbar */
 .navbar {
   position: absolute;
-  width: 2251px;
-  /* width: 100%; */
-  height: 167px;
+  /* width: 2251px; */
+  width: 100%;
+  height: 100px;
   left: 0px;
   top: 0px;
 }
 
 .logo-pos {
   position: absolute;
-  width: 170.37px;
+  width: 125px;
   /* width:7.57%; */
-  height: 119px;
-  left: 90px;
+  /* height: 119px; */
+  left: 30px;
   /* left:3.9%; */
-  top: 24px;
+  top: 3px;
 }
 
 .icon-size {
   position: absolute;
-  width: 37.52px;
-  height: 37.52px;
+  width: 20px;
+  height: 20px;
 }
 
 .insta-pos {
-  left: 769.09px;
+  left: 430px;
   /* left: 34.16%; */
-  top: 65.56px;
+  top: 40px;
   color: #676565;
   transition-duration: 0.5s;
 }
@@ -37,9 +37,9 @@
 }
 
 .linked-pos {
-  left: 679.99px;
+  left: 370px;
   /* left: 30.2%; */
-  top: 64px;
+  top: 40px;
   color: #676565;
   transition-duration: 0.5s;
 }
@@ -49,9 +49,9 @@
 }
 
 .twitter-pos {
-  left: 473.65px;
+  left: 250px;
   /* left: 21.04%; */
-  top: 64px;
+  top: 40px;
   color: #676565;
   transition-duration: 0.5s;
 }
@@ -61,9 +61,9 @@
 }
 
 .fb-pos {
-  left: 576.82px;
+  left: 310px;
   /* left: 25.63%; */
-  top: 64px;
+  top: 40px;
   color: #676565;
   transition-duration: 0.5s;
 }
@@ -74,21 +74,20 @@
 
 .navs {
   position: absolute;
-  width: 517.28px;
+  /* width: 517.28px; */
   height: 28.45px;
-  left: 1411px;
-  /* left: 62.68%; */
-  top: 64px;
+  right: 100px;
+  top: 50px;
 
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 18px;
+  line-height: 0px;
 }
 
 .navs-margin {
-  margin-left: 48px;
+  margin-left: 30px;
 }
 
 a {

@@ -1,6 +1,7 @@
 import { InstagramFill, LinkedInFill, FacebookFill, TwitterFill } from 'akar-icons';
 import './Navbar.css';
 import MPLogo from './logo.svg';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -12,12 +13,13 @@ const Navbar = () => {
       {/* Figure out how to get the dashicon one, maybe just do an svg */}
       <FacebookFill className='icon-size fb-pos' />
       <div className='navs'>
-        <a href='/getbult'>Get Bult</a>
-        <a href='/events' className='navs-margin'>Events</a>
-        <a href='/learn' className='navs-margin'>Learn</a>
-        <a href='/join' className='navs-margin'>Join</a>
+        <Link to='/incubator'>Get Bult</Link>
+        <Link to='/' className='navs-margin'>Events</Link>
+        <Link to='/learn' className='navs-margin'>Learn</Link>
+        <Link to='/' className='navs-margin'>Join</Link>
       </div>
     </div>
+
   );
 }
 

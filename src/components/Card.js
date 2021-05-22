@@ -3,10 +3,13 @@ import MSwapLogo from './mangoswap_logo.svg';
 
 
 const Card = (props) => {
-  const width = props.percent * 374 / 100;
-  const pos = props.id * 550;
+  // get the width of the progress bar
+  const pb_width = props.percent * 249.33 / 100;
+  // get the position for the next card
+  const pos_h = props.idh * 350;
+  const pos_v = props.idv * 400;
   return (
-    <div className='card' style={{left:pos}}>
+    <div className='card' style={{left:pos_h, top:pos_v}}>
       <div className='card-container'>
         <div className='card-icon'>
           <img className='card-img' src={MSwapLogo} alt='mangoswap logo'></img>
@@ -20,9 +23,8 @@ const Card = (props) => {
           </div>
           <p className='card-funds-amnt'>${props.raised}/${props.goal}</p>
           <div className='card-funds-bar'>
-            {/* figure out how to size the width using the precent props */}
             <div className='card-funds-left'></div>
-            <div className='card-funds-progress' style={{width:width}}></div>
+            <div className='card-funds-progress' style={{width:pb_width}}></div>
           </div>
         </div>
         <button className='card-fund-btn'><div className='card-fund-text'>Fund Startup</div></button>

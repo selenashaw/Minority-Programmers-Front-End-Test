@@ -7,10 +7,9 @@ const Cards = () => {
   return (
     <div className='frame'>
       <div className='cards'>
-        {/* Figure out how to make these appear in multiple locations */}
-        <Card title="Mangoswap" text={txt} percent='50' raised='200,000' goal='400,000' id={0} />
-        <Card title="Mangoswap" text={txt} percent='50' raised='200,000' goal='400,000' id={1}/>
-        <Card title="Mangoswap" text={txt} percent='50' raised='200,000' goal='400,000' id={2}/>
+        <Card title="Mangoswap" text={txt} percent='50' raised='200,000' goal='400,000' idh={0} idv={0} />
+        <Card title="Mangoswap" text={txt} percent='50' raised='200,000' goal='400,000' idh={1} idv={0} />
+        <Card title="Mangoswap" text={txt} percent='50' raised='200,000' goal='400,000' idh={2} idv={0} />
       </div>
     </div>
   );
