@@ -2,7 +2,8 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Learn from './components/Learn';
 import Incubator from './components/Incubator';
-import Startup from './components/Startup'
+import Startup from './components/Startup';
+import MyCourses from './components/MyCourses';
 import './App.css';
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
         <div className="App">
           <Navbar />
           <Route path='/learn' component={Learn} />
-          <Route path='/' exact component={Startup}/>
+          <Route path='/' exact component={MyCourses}/>
           {/* change the / to home and also have 
           <Rout path='/Minority-Programmers-Front-End-Test' component={Home} /> */}
           <Route path='/incubator' component={Incubator} />

@@ -13,7 +13,7 @@ const Navbar = () => {
       {/* Figure out how to get the dashicon one, maybe just do an svg */}
       <FacebookFill className='icon-size fb-pos' />
       <div className='navs'>
-        <Link to='/incubator'>Get Bult</Link>
+        <Link to='/incubator'>Incubator</Link>
         <Link to='/' className='navs-margin'>Events</Link>
         <Link to='/learn' className='navs-margin'>Learn</Link>
         <Link to='/' className='navs-margin'>Join</Link>
