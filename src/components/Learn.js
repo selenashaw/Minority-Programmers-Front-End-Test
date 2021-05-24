@@ -3,27 +3,7 @@ import Globe from './Globe.svg';
 import Arrow from './arrow.svg';
 import Courses from './Courses';
 
-const Learn = () => {
-  const courses=[{
-    title:'Intro to Blockchain',
-    desc:'Blockchain, Cryptocurrency Fundamentals',
-    progress:'8.3',
-    modules:'10',
-    percent:'83'
-  },{
-    title:'Intro to Blockchain',
-    desc:'Blockchain, Cryptocurrency Fundamentals',
-    progress:'8.3',
-    modules:'10',
-    percent:'83'
-  },{
-    title:'Intro to Blockchain',
-    desc:'Blockchain, Cryptocurrency Fundamentals',
-    progress:'8.3',
-    modules:'10',
-    percent:'83'
-  }
-]
+const Learn = ( {courses}) => {
   return (
     <div className='learn'>
       <img src={Globe} alt='globe art' className='globe-img' />

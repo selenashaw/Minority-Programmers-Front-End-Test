@@ -6,53 +6,7 @@ import HelpCodeImg from './help_code.svg';
 import InvestImg from './Invest.svg';
 import './Incubator.css';
 
-const Incubator = () => {
-  let text='The mango swap coin is the future for crypto currency, ' +
-  'it will allow user share and tansact over defi networks with less fees.';
-  let cards=[{
-    title: "Mangoswap",
-    text:text,
-    percent: '50',
-    raised:'200,000',
-    goal:'400,000'
-    },{
-    title: "Mangoswap",
-    text:text,
-    percent: '50',
-    raised:'200,000',
-    goal:'400,000'
-    },{
-    title: "Mangoswap",
-    text:text,
-    percent: '50',
-    raised:'200,000',
-    goal:'400,000'
-    },{
-    title: "Mangoswap",
-    text:text,
-    percent: '50',
-    raised:'200,000',
-    goal:'400,000'
-    },{
-    title: "Mangoswap",
-    text:text,
-    percent: '50',
-    raised:'200,000',
-    goal:'400,000'
-    },{
-    title: "Mangoswap",
-    text:text,
-    percent: '50',
-    raised:'200,000',
-    goal:'400,000'
-    },{
-    title: "Mangoswap",
-    text:text,
-    percent: '50',
-    raised:'200,000',
-    goal:'400,000'
-    }
-  ]
+const Incubator = (props) => {
 
   let helpcode="Help <Code/>"
   return(
@@ -68,14 +22,13 @@ const Incubator = () => {
         <p className='startup-head'>Featured Startups</p>
         <p className='startup-txt'>Invest in the next billion dollar company today</p>
       </div>
-      <Cards />
+      <Cards card={props.data.cards}/>
       <div className='ad_a_start-container'>
         <img src={AdviseImg} className='ad-a-start-img' alt='advice a startup img' />
         <div className='ad-a-start-border'>
           <p className='ad-a-start-txt'>Advice a startup</p>
         </div>
       </div>
-      {/* the containers are bad */}
       <div className='join-cohort-container'>
         <img src={CohortImg} className='join-cohort-img' alt='join minority ventures cohort img' />
         <div className='join-cohort-border'>
@@ -93,7 +46,7 @@ const Incubator = () => {
         <p className='upcoming-startup-txt'>These visionary companies and disruptors are on their journey to change the world.</p>
       </div>
       
-      <CardTiles cards={cards}/>
+      <CardTiles cards={props.data.tiles}/>
       <button className='load-btn'><p className='load-txt'>Load More</p></button>
     </div>
 

@@ -88,7 +88,7 @@
   font-family: Red Hat Display;
   font-style: normal;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 30px;
   line-height: 53px;
   /* identical to box height */
 
@@ -346,6 +346,7 @@
   top: 230px;
 
   background: #FFFFFF;
+  overflow:hidden;
 }
 
 .startup-info-txt {
@@ -362,4 +363,21 @@
   text-align: justify;
 
   color: #000000;
+}
+
+.left-black-arrow {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  right: 100px;
+  top: 15px;
+}
+
+.right-black-arrow {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  right: 30px;
+  top: 15px;
+  transform: scaleX(-1);
 }

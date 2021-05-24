@@ -81,7 +81,6 @@
 
 .card-title {
   position: absolute;
-  width: 132px;
   height: 32px;
   left: 106.66px;
   top: 44px;
@@ -90,7 +89,7 @@
   font-family: Red Hat Display;
   font-style: normal;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 26px;
   /* line-height: 48px; */
   /* identical to box height */
 
@@ -222,6 +221,7 @@
 
   background: #141471;
   border-radius: 4px;
+  border: transparent;
 }
 
 .card-fund-text {
@@ -261,16 +261,22 @@
   align-items: center;
   padding: 16px 32px;
   
-  position: absolute;
   width: 114px;
   height: 50.66px;
-  /* left: calc(50% - 171px/2 + 101.5px); */
-  top: 300px;
+  top: 0px;
 
   /* Brand color - blue */
   
   border: 2px solid #141471;
   border-radius: 4px;
+
+  cursor:pointer;
+}
+
+.learn-btn-placement{
+  position: absolute;
+  /* left: calc(50% - 171px/2 + 101.5px); */
+  top: 300px;
 }
 
 .card-learn-text {

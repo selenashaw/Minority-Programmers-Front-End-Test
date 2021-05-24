@@ -1,6 +1,6 @@
 import './Card.css';
 import MSwapLogo from './mangoswap_logo.svg';
-
+import { Link } from 'react-router-dom';
 
 const Card = (props) => {
   // get the width of the progress bar
@@ -8,6 +8,9 @@ const Card = (props) => {
   // get the position for the next card
   const pos_h = props.idh * 350;
   const pos_v = props.idv * 400;
+
+  let link = '/startup/' + props.id;
+
   return (
     <div className='card' style={{left:pos_h, top:pos_v}}>
       <div className='card-container'>
@@ -29,7 +32,11 @@ const Card = (props) => {
         </div>
         <button className='card-fund-btn'><div className='card-fund-text'>Fund Startup</div></button>
         <div className='btn-placement'>
-          <button className='card-learn-btn'><div className='card-learn-text'>Learn more</div></button>
+          <Link to={link} className='learn-btn-placement'>
+            <button className='card-learn-btn'>
+              <div className='card-learn-text'>Learn more</div>
+            </button>
+          </Link>
         </div>
       </div>
     </div>

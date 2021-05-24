@@ -4,6 +4,9 @@ import Learn from './components/Learn';
 import Incubator from './components/Incubator';
 import Startup from './components/Startup';
 import MyCourses from './components/MyCourses';
+import Activity from './components/Activity';
+import Class from './components/Class';
+import data from './data.json';
 import './App.css';
 
 function App() {
@@ -12,11 +15,29 @@ function App() {
       <Switch>
         <div className="App">
           <Navbar />
-          <Route path='/learn' component={Learn} />
-          <Route path='/' exact component={MyCourses}/>
+          <Route 
+            path='/learn' 
+            render={()=> <Learn courses={data.learn.courses}/>} 
+          />
+          <Route path='/' exact component={Activity}/>
           {/* change the / to home and also have 
-          <Rout path='/Minority-Programmers-Front-End-Test' component={Home} /> */}
-          <Route path='/incubator' component={Incubator} />
+          <Route path='/Minority-Programmers-Front-End-Test' component={Home} /> */}
+          <Route 
+            path='/incubator' 
+            render={()=> <Incubator data={data.incubator}/>} 
+          />
+          <Route 
+            path="/startup/:id" 
+            render={(props) => <Startup {...props} data={data.incubator}/>}
+          />
+          <Route
+            path="/mycourses/:id"
+            render={(props) => <MyCourses {...props} data={data.learn}/>}
+          />
+          <Route
+            path="/class/:id/:mod"
+            render={(props) => <Class {...props} data={data.learn}/>}
+          />
         </div>
       </Switch>
     </Router>

@@ -6,7 +6,9 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <div className='navbar'>
-      <img src={MPLogo} alt='logo' className='logo-pos' />
+      <Link to='/'>
+      <img src={MPLogo} alt='logo' className='logo-pos' /> 
+      </Link>
       <InstagramFill className='icon-size insta-pos' />
       <LinkedInFill className='icon-size linked-pos' />
       <TwitterFill className='icon-size twitter-pos' />

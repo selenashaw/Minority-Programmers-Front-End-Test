@@ -1,15 +1,21 @@
 import Card from './Card'
 import './Cards.css';
 
-const Cards = () => {
-  const txt='The mango swap coin is the future for crypto currency, ' +
-      'it will allow user share and tansact over defi networks with less fees.'
+const Cards = (props) => {
+  let v=0;
+  let h=0;
+
+  const cardmapping = (card) => {
+    let component = (<Card id={card.id} title={card.title} text={card.text} percent={card.percent} raised={card.raised} 
+      goal={card.goal} idh={h} idv={v} />);
+    h=h+1;
+    return component;
+  }
+
   return (
     <div className='frame'>
       <div className='cards'>
-        <Card title="Mangoswap" text={txt} percent='50' raised='200,000' goal='400,000' idh={0} idv={0} />
-        <Card title="Mangoswap" text={txt} percent='50' raised='200,000' goal='400,000' idh={1} idv={0} />
-        <Card title="Mangoswap" text={txt} percent='50' raised='200,000' goal='400,000' idh={2} idv={0} />
+        {props.card.map((card) => cardmapping(card))}
       </div>
     </div>
   );
