@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Learn from './components/Learn';
 import Incubator from './components/Incubator';
@@ -19,9 +20,8 @@ function App() {
             path='/learn' 
             render={()=> <Learn courses={data.learn.courses}/>} 
           />
-          <Route path='/' exact component={Activity}/>
-          {/* change the / to home and also have 
-          <Route path='/Minority-Programmers-Front-End-Test' component={Home} /> */}
+          <Route path='/' exact component={Home}/>
+          <Route path='/Minority-Programmers-Front-End-Test' component={Home} />
           <Route 
             path='/incubator' 
             render={()=> <Incubator data={data.incubator}/>} 
@@ -37,6 +37,10 @@ function App() {
           <Route
             path="/class/:id/:mod"
             render={(props) => <Class {...props} data={data.learn}/>}
+          />
+          <Route
+            path="/activity/:id/:mod/:act"
+            render={(props) => <Activity {...props} data={data.learn}/>}
           />
         </div>
       </Switch>

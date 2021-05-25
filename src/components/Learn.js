@@ -14,7 +14,7 @@ const Learn = ( {courses}) => {
       <div className='blue-bkg'>
         <div className='search'>
           <input className='search-bar' placeholder='What event are you looking for?'/>
-          <button class= 'filter-btn'><p className='filter-btn-txt'>Filter search</p></button>
+          <button className= 'filter-btn'><p className='filter-btn-txt'>Filter search</p></button>
         </div>
         <p className='my-courses-txt'>My Courses</p>
         <div className='learn-course-bar'>

@@ -6,7 +6,7 @@ const Cards = (props) => {
   let h=0;
 
   const cardmapping = (card) => {
-    let component = (<Card id={card.id} title={card.title} text={card.text} percent={card.percent} raised={card.raised} 
+    let component = (<Card key={card.id} id={card.id} title={card.title} text={card.text} percent={card.percent} raised={card.raised} 
       goal={card.goal} idh={h} idv={v} />);
     h=h+1;
     return component;

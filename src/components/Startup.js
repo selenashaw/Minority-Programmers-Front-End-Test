@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 const Startup = (props) => {
   const { id } = props.match.params;
   let data=props.data;
-  let startup = props.data.tiles.filter(comp => comp.id == id)[0];
+  let startup = props.data.tiles.filter(comp => comp.id === id)[0];
   let pb_width = startup.percent * 250/100;
 
   let miniId=0;
@@ -24,7 +24,7 @@ const Startup = (props) => {
   }
 
   // makes sure the minicards arent a repeat of the current startup
-  let minicards = data.cards.filter((card) => card.id != id);
+  let minicards = data.cards.filter((card) => card.id !== id);
   return (
     <div className='gradient'>
       <div className='startup-header'>
@@ -57,8 +57,7 @@ const Startup = (props) => {
         <div className='left-info-txt' style={{top:'285px'}}>{startup.size} people</div>
         <div className='startup-line' style={{top:'350px'}}></div>
         <div className='left-info-heading'>Meet the team</div>
-{/* Map over teammates in prop for this one? */}
-{/* place the stuff below after */}
+
         <div className='startup-line'></div>
         {/* <div className='left-info-heading'>Tags</div> */}
       </div>

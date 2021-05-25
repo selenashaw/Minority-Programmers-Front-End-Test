@@ -1,7 +1,7 @@
 {
   "incubator": {
     "tiles": [{
-      "id":1,
+      "id":"1",
       "title": "Mangoswap-1",
       "text":"The mango swap coin is the future for crypto currency, it will allow user share and tansact over defi networks with less fees.",
       "percent": 50,
@@ -12,7 +12,7 @@
       "location":"San Francisco, California",
       "size":"100-500"
       },{
-      "id":2,
+      "id":"2",
       "title": "Mangoswap-2",
       "text":"The mango swap coin is the future for crypto currency, it will allow user share and tansact over defi networks with less fees.",
       "percent": 50,
@@ -23,7 +23,7 @@
       "location":"San Francisco, California",
       "size":"100-500"
       },{
-      "id":3,
+      "id":"3",
       "title": "Mangoswap-3",
       "text":"The mango swap coin is the future for crypto currency, it will allow user share and tansact over defi networks with less fees.",
       "percent": 75,
@@ -34,7 +34,7 @@
       "location":"San Francisco, California",
       "size":"100-500"
       },{
-      "id":4,
+      "id":"4",
       "title": "Mangoswap-4",
       "text":"The mango swap coin is the future for crypto currency, it will allow user share and tansact over defi networks with less fees.",
       "percent": 25,
@@ -45,7 +45,7 @@
       "location":"San Francisco, California",
       "size":"100-500"
       },{
-      "id":5,
+      "id":"5",
       "title": "Mangoswap-5",
       "text":"The mango swap coin is the future for crypto currency, it will allow user share and tansact over defi networks with less fees.",
       "percent": 50,
@@ -56,7 +56,7 @@
       "location":"San Francisco, California",
       "size":"100-500"
       },{
-      "id":6,
+      "id":"6",
       "title": "Mangoswap-6",
       "text":"The mango swap coin is the future for crypto currency, it will allow user share and tansact over defi networks with less fees.",
       "percent": 50,
@@ -67,7 +67,7 @@
       "location":"San Francisco, California",
       "size":"100-500"
       },{
-      "id":7,
+      "id":"7",
       "title": "Mangoswap-7",
       "text":"The mango swap coin is the future for crypto currency, it will allow user share and tansact over defi networks with less fees.",
       "percent": 50,
@@ -78,7 +78,7 @@
       "location":"San Francisco, California",
       "size":"100-500"
       },{
-      "id":8,
+      "id":"8",
       "title": "Mangoswap-8",
       "text":"The mango swap coin is the future for crypto currency, it will allow user share and tansact over defi networks with less fees.",
       "percent": 50,
@@ -92,21 +92,21 @@
     ],
 
     "cards":[{
-      "id":1,
+      "id":"1",
       "title": "Mangoswap-1",
       "text":"The mango swap coin is the future for crypto currency, it will allow user share and tansact over defi networks with less fees.",
       "percent": 50,
       "raised":"200,000",
       "goal":"400,000"
       },{
-      "id":2,
+      "id":"2",
       "title": "Mangoswap-2",
       "text":"The mango swap coin is the future for crypto currency, it will allow user share and tansact over defi networks with less fees.",
       "percent": 50,
       "raised":"200,000",
       "goal":"400,000"
       },{
-      "id":5,
+      "id":"5",
       "title": "Mangoswap-5",
       "text":"The mango swap coin is the future for crypto currency, it will allow user share and tansact over defi networks with less fees.",
       "percent": 50,
@@ -119,50 +119,238 @@
 
   "learn":{
     "courses": [{
-      "id":1,
+      "id":"1",
       "title":"Intro to Blockchain",
       "desc":"Blockchain, Cryptocurrency Fundamentals",
       "progress":8.3,
       "modules":10,
       "percent":83,
-      "mods":[{
-        "id":1,
+      "classes":[{
+        "id":"1",
         "name":"Week 1 - Fundamentals of Cryptocurrency",
         "percent":100,
         "week": 1,
         "tasks":10,
-        "finished":10
+        "finished":10,
+        "modules":[{
+          "id": "1",
+          "title":"Join Clickup",
+          "time": "12 minutes",
+          "percent": 100
+        },{
+          "id":"2",
+          "title":"Join Discord",
+          "time": "10 minutes",
+          "percent": 50
+        },{
+          "id":"3",
+          "title":"Create Avatar",
+          "time": "20 minutes",
+          "percent": 0
+        }]
       },{
-        "id":2,
+        "id":"2",
         "name":"Week 2 - Fundamentals of Cryptocurrency",
         "percent":100,
         "week": 2,
         "tasks":10,
-        "finished":10
+        "finished":10,
+        "modules":[{
+          "id": "1",
+          "title":"Join Clickup",
+          "time": "12 minutes",
+          "percent": 100
+        },{
+          "id":"2",
+          "title":"Join Discord",
+          "time": "10 minutes",
+          "percent": 50
+          },{
+            "id":"3",
+            "title":"Create Avatar",
+            "time": "20 minutes",
+            "percent": 0
+          }]
       },{
-        "id":3,
+        "id":"3",
         "name":"Week 3 - Fundamentals of Cryptocurrency",
-        "percent":75,
+        "percent":80,
         "week": 3,
         "tasks":10,
-        "finished":7.5
-      }
-        
-      ]
+        "finished":8,
+        "modules":[{
+          "id": "1",
+          "title":"Join Clickup",
+          "time": "12 minutes",
+          "percent": 100
+        },{
+          "id":"2",
+          "title":"Join Discord",
+          "time": "10 minutes",
+          "percent": 50
+        },{
+          "id":"3",
+          "title":"Create Avatar",
+          "time": "20 minutes",
+          "percent": 0
+        }]
+      }]
+
       },{
-      "id":2,
+      "id":"2",
       "title":"Intro to Blockchain",
       "desc":"Blockchain, Cryptocurrency Fundamentals",
       "progress":8.3,
       "modules":10,
-      "percent":83
+      "percent":83,
+      "classes":[{
+        "id":"1",
+        "name":"Week 1 - Fundamentals of Cryptocurrency",
+        "percent":100,
+        "week": 1,
+        "tasks":10,
+        "finished":10,
+        "modules":[{
+          "id": "1",
+          "title":"Join Clickup",
+          "time": "12 minutes",
+          "percent": 100
+        },{
+          "id":"2",
+          "title":"Join Discord",
+          "time": "10 minutes",
+          "percent": 50
+          },{
+            "id":"3",
+            "title":"Create Avatar",
+            "time": "20 minutes",
+            "percent": 0
+          }]
       },{
-      "id":3,
+        "id":"2",
+        "name":"Week 2 - Fundamentals of Cryptocurrency",
+        "percent":100,
+        "week": 2,
+        "tasks":10,
+        "finished":10,
+        "modules":[{
+          "id": "1",
+          "title":"Join Clickup",
+          "time": "12 minutes",
+          "percent": 100
+        },{
+          "id":"2",
+          "title":"Join Discord",
+          "time": "10 minutes",
+          "percent": 50
+          },{
+            "id":"3",
+            "title":"Create Avatar",
+            "time": "20 minutes",
+            "percent": 0
+          }]
+      },{
+        "id":"3",
+        "name":"Week 3 - Fundamentals of Cryptocurrency",
+        "percent":80,
+        "week": 3,
+        "tasks":10,
+        "finished":8,
+        "modules":[{
+          "id": "1",
+          "title":"Join Clickup",
+          "time": "12 minutes",
+          "percent": 100
+        },{
+          "id":"2",
+          "title":"Join Discord",
+          "time": "10 minutes",
+          "percent": 50
+        },{
+          "id":"3",
+          "title":"Create Avatar",
+          "time": "20 minutes",
+          "percent": 0
+        }]
+      }]
+
+      },{
+      "id":"3",
       "title":"Intro to Blockchain",
       "desc":"Blockchain, Cryptocurrency Fundamentals",
       "progress":8.3,
       "modules":10,
-      "percent":83
+      "percent":83,
+      "classes":[{
+        "id":"1",
+        "name":"Week 1 - Fundamentals of Cryptocurrency",
+        "percent":100,
+        "week": 1,
+        "tasks":10,
+        "finished":10,
+        "modules":[{
+          "id": "1",
+          "title":"Join Clickup",
+          "time": "12 minutes",
+          "percent": 100
+        },{
+          "id":"2",
+          "title":"Join Discord",
+          "time": "10 minutes",
+          "percent": 50
+          },{
+            "id":"3",
+            "title":"Create Avatar",
+            "time": "20 minutes",
+            "percent": 0
+          }]
+      },{
+        "id":"2",
+        "name":"Week 2 - Fundamentals of Cryptocurrency",
+        "percent":100,
+        "week": 2,
+        "tasks":10,
+        "finished":10,
+        "modules":[{
+          "id": "1",
+          "title":"Join Clickup",
+          "time": "12 minutes",
+          "percent": 100
+        },{
+          "id":"2",
+          "title":"Join Discord",
+          "time": "10 minutes",
+          "percent": 50
+          },{
+            "id":"3",
+            "title":"Create Avatar",
+            "time": "20 minutes",
+            "percent": 0
+          }]
+      },{
+        "id":"3",
+        "name":"Week 3 - Fundamentals of Cryptocurrency",
+        "percent":80,
+        "week": 3,
+        "tasks":10,
+        "finished":8,
+        "modules":[{
+          "id": "1",
+          "title":"Join Clickup",
+          "time": "12 minutes",
+          "percent": 100
+        },{
+          "id":"2",
+          "title":"Join Discord",
+          "time": "10 minutes",
+          "percent": 50
+        },{
+          "id":"3",
+          "title":"Create Avatar",
+          "time": "20 minutes",
+          "percent": 0
+        }]
+      }]
       }
     ]
   }

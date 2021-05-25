@@ -1,12 +1,18 @@
+.whole-page-container {
+  position: absolute;
+  width:100%;
+  left: 0px;
+  top: 0px;
+  height: 1100px;
+}
+
 .activity-container {
   position: absolute;
   width:100%;
   left: 0px;
   top: 100px;
-  height: 1000px;
-  overflow-x: hidden;
+  height: 1600px;
   background: #151371;
-
 }
 
 .content-container {
@@ -14,8 +20,6 @@
   width: 75%;
   height: 500px;
   left: 25%;
-  overflow-y:hidden;
-
 }
 
 .info-container {
@@ -31,7 +35,7 @@
 .info-content {
   position: absolute;
   width: 80%;
-  height: 1000px;
+  height: 950px;
   left: 10%;
   top: 100px;
 
@@ -130,6 +134,8 @@
 .material-img{
   position: absolute;
   width: 100%;
+  height: 100%;
+
 }
 
 .activity-arrow {
