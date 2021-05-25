@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 const Home = ( {courses}) => {
   return (
     <div className='home-container'>
+      <div className='home-header'>Minority Programmers Association</div>
       <div className='home-incu-container'>
         <div className='incu-gradient'>
           <div className='home-subheader' style={{left:'80px'}}>Interested in startups?</div>

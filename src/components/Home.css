@@ -9,9 +9,21 @@
   background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
 }
 
+.home-header {
+  position:absolute;
+  top: 50px;
+  width: 915px;
+  left: calc(50% - 457.5px);
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  color:#FFFFFF;
+}
+
 .home-incu-container {
   position:absolute;
-  top: 100px;
+  top: 180px;
   left: 200px;
   width: 90%;
   height: 400px;
@@ -109,7 +121,7 @@
 
 .home-class-container {
   position:absolute;
-  top: 600px;
+  top: 645px;
   right: 200px;
   width: 90%;
   height: 400px;
