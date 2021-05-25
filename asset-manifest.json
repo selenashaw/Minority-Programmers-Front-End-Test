@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Minority-Programmers-Front-End-Test/static/css/main.dce58857.chunk.css",
+    "main.js": "/Minority-Programmers-Front-End-Test/static/js/main.116975a6.chunk.js",
+    "main.js.map": "/Minority-Programmers-Front-End-Test/static/js/main.116975a6.chunk.js.map",
+    "runtime-main.js": "/Minority-Programmers-Front-End-Test/static/js/runtime-main.022c356f.js",
+    "runtime-main.js.map": "/Minority-Programmers-Front-End-Test/static/js/runtime-main.022c356f.js.map",
+    "static/js/2.3d42b7db.chunk.js": "/Minority-Programmers-Front-End-Test/static/js/2.3d42b7db.chunk.js",
+    "static/js/2.3d42b7db.chunk.js.map": "/Minority-Programmers-Front-End-Test/static/js/2.3d42b7db.chunk.js.map",
+    "static/js/3.fd3eeff1.chunk.js": "/Minority-Programmers-Front-End-Test/static/js/3.fd3eeff1.chunk.js",
+    "static/js/3.fd3eeff1.chunk.js.map": "/Minority-Programmers-Front-End-Test/static/js/3.fd3eeff1.chunk.js.map",
+    "index.html": "/Minority-Programmers-Front-End-Test/index.html",
+    "static/css/main.dce58857.chunk.css.map": "/Minority-Programmers-Front-End-Test/static/css/main.dce58857.chunk.css.map",
+    "static/js/2.3d42b7db.chunk.js.LICENSE.txt": "/Minority-Programmers-Front-End-Test/static/js/2.3d42b7db.chunk.js.LICENSE.txt",
+    "static/media/Globe.811aebf9.svg": "/Minority-Programmers-Front-End-Test/static/media/Globe.811aebf9.svg",
+    "static/media/Invest.b6f91a33.svg": "/Minority-Programmers-Front-End-Test/static/media/Invest.b6f91a33.svg",
+    "static/media/advice_a_startup.05fceacb.svg": "/Minority-Programmers-Front-End-Test/static/media/advice_a_startup.05fceacb.svg",
+    "static/media/arrow.43ecf159.svg": "/Minority-Programmers-Front-End-Test/static/media/arrow.43ecf159.svg",
+    "static/media/back_arrow.de820b17.svg": "/Minority-Programmers-Front-End-Test/static/media/back_arrow.de820b17.svg",
+    "static/media/black-arrow.088b9215.svg": "/Minority-Programmers-Front-End-Test/static/media/black-arrow.088b9215.svg",
+    "static/media/circle.0fe46b29.svg": "/Minority-Programmers-Front-End-Test/static/media/circle.0fe46b29.svg",
+    "static/media/close-sidebar.34122d19.svg": "/Minority-Programmers-Front-End-Test/static/media/close-sidebar.34122d19.svg",
+    "static/media/help_code.8c470474.svg": "/Minority-Programmers-Front-End-Test/static/media/help_code.8c470474.svg",
+    "static/media/join_cohort.d5ebe4a9.svg": "/Minority-Programmers-Front-End-Test/static/media/join_cohort.d5ebe4a9.svg",
+    "static/media/logo.10bf8cb1.svg": "/Minority-Programmers-Front-End-Test/static/media/logo.10bf8cb1.svg",
+    "static/media/mangoswap_logo.ed495b62.svg": "/Minority-Programmers-Front-End-Test/static/media/mangoswap_logo.ed495b62.svg",
+    "static/media/shot.d81780eb.svg": "/Minority-Programmers-Front-End-Test/static/media/shot.d81780eb.svg",
+    "static/media/vid.0d24bb76.PNG": "/Minority-Programmers-Front-End-Test/static/media/vid.0d24bb76.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.022c356f.js",
+    "static/js/2.3d42b7db.chunk.js",
+    "static/css/main.dce58857.chunk.css",
+    "static/js/main.116975a6.chunk.js"
+  ]
+}
